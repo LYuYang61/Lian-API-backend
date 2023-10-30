@@ -1,0 +1,453 @@
+2023-10-25 23:43:59.185 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-25 23:43:59.189 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-25 23:43:59.189 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-25 23:43:59.249 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-25 23:43:59.258 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-25 23:44:01.778 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [359aff9c-3c9a-4fea-9de8-3d8f889572eb_config-0] Connected,notify listen context...
+2023-10-25 23:44:01.859 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-25 23:44:13.053 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-25 23:44:13.056 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-25 23:44:13.063 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-25 23:44:13.073 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-25 23:44:13.073 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-25 23:44:13.601 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-25 23:44:13.601 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-25 23:44:13.966 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [20280f90-c390-4c98-895e-adc5a17573d4_config-0] Connected,notify listen context...
+2023-10-25 23:44:13.990 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-25 23:44:14.019 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-25 23:44:14.139 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-25 23:44:14.139 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-25 23:44:14.146 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-25 23:44:14.146 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-25 23:44:14.171 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-25 23:44:14.171 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-25 23:44:14.395 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-25 23:44:14.395 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-25 23:44:14.479 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-25 23:44:14.480 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-25 23:44:14.508 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-25 23:44:14.508 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-25 23:44:14.607 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-listener] time cost=1ms in ClientWorker, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@1cc952cf 
+2023-10-25 23:44:14.607 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-context] dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a
+2023-10-25 23:44:14.610 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-ok] dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@1cc952cf ,cost=3 millis.
+2023-10-25 23:44:14.713 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-25 23:44:14.713 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-25 23:44:14.841 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-25 23:44:14.841 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-25 23:44:14.926 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-listener] time cost=0ms in ClientWorker, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@11cec5f 
+2023-10-25 23:44:14.926 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-context] dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a
+2023-10-25 23:44:14.926 INFO [nacos.client.cachedata.internal.notifier:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [notify-ok] dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, md5=aa4e1b8c2cc9deed96fe012ef2e0752a, listener=org.apache.dubbo.metadata.store.nacos.NacosMetadataReport$NacosConfigListener@11cec5f ,cost=0 millis.
+2023-10-25 23:44:21.615 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-25 23:44:21.615 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-25 23:44:21.618 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-25 23:44:21.618 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-26 00:05:02.479 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:05:02.479 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 00:05:02.627 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-26 00:05:04.549 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-10-26 00:05:04.552 INFO [Thread-2:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:05:04.552 INFO [Thread-2:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 00:05:04.552 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@27f8c096
+2023-10-26 00:05:04.552 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 359aff9c-3c9a-4fea-9de8-3d8f889572eb_config-0
+2023-10-26 00:05:04.552 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Remove rpc client 359aff9c-3c9a-4fea-9de8-3d8f889572eb_config-0
+2023-10-26 00:05:04.554 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@19713e98[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 253]
+2023-10-26 00:05:04.554 INFO [Thread-2:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-10-26 00:05:07.630 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-26 00:05:09.162 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [544dce7a-f165-42c3-9e98-d3be71d0a3d1_config-0] Connected,notify listen context...
+2023-10-26 00:05:14.772 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-26 00:05:14.772 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:14.777 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-26 00:05:14.779 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:14.991 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-26 00:05:14.991 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-26 00:05:15.452 INFO [Thread-110:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:05:15.452 INFO [Thread-110:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 00:05:17.489 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-10-26 00:05:17.489 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@4c469bfb
+2023-10-26 00:05:17.489 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 544dce7a-f165-42c3-9e98-d3be71d0a3d1_config-0
+2023-10-26 00:05:17.489 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] Remove rpc client 544dce7a-f165-42c3-9e98-d3be71d0a3d1_config-0
+2023-10-26 00:05:17.493 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@238d12a0[Running, pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 2]
+2023-10-26 00:05:17.493 INFO [Thread-110:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-10-26 00:05:17.638 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-26 00:05:18.025 INFO [Thread-110:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:05:18.025 INFO [Thread-110:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 00:05:21.517 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [72b81fa3-3c57-4056-8414-414e9f7fac10_config-0] Connected,notify listen context...
+2023-10-26 00:05:27.032 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-26 00:05:27.034 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:27.037 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-26 00:05:27.037 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:27.235 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-26 00:05:27.235 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-26 00:05:27.802 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [9d8b8cc6-22a1-4769-9611-f285b56505b4_config-0] Connected,notify listen context...
+2023-10-26 00:05:27.832 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-26 00:05:27.871 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-26 00:05:27.871 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-26 00:05:27.876 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-26 00:05:27.876 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-26 00:05:27.890 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-26 00:05:27.890 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:28.108 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-26 00:05:28.108 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-26 00:05:30.146 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-26 00:05:30.146 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-26 00:05:30.148 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-26 00:05:30.148 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-26 00:05:30.172 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-26 00:05:30.172 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-26 00:05:30.185 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-26 00:05:30.185 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-26 00:05:30.391 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-26 00:05:30.391 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-26 00:05:30.441 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-26 00:05:30.441 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 00:38:04.503 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:38:04.505 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 00:38:04.517 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown begin
+2023-10-26 00:38:04.517 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Trying to shutdown transport client com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient@7521ed6a
+2023-10-26 00:38:04.517 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Trying to shutdown rpc client 72b81fa3-3c57-4056-8414-414e9f7fac10_config-0
+2023-10-26 00:38:04.517 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Remove rpc client 72b81fa3-3c57-4056-8414-414e9f7fac10_config-0
+2023-10-26 00:38:04.517 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] Shutdown executor java.util.concurrent.ScheduledThreadPoolExecutor@7e0b8922[Running, pool size = 16, active threads = 1, queued tasks = 1, completed tasks = 393]
+2023-10-26 00:38:04.524 INFO [DubboShutdownHook:c.a.n.c.c.i.ClientWorker] com.alibaba.nacos.client.config.impl.ClientWorker do shutdown stop
+2023-10-26 00:38:04.597 INFO [com.alibaba.nacos.client.naming.security:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-26 00:38:05.045 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-26 00:38:05.045 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-26 23:13:29.187 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-26 23:13:29.190 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-26 23:13:29.190 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-26 23:13:29.239 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-26 23:13:29.252 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-26 23:13:31.549 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] Connected,notify listen context...
+2023-10-26 23:13:31.633 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-26 23:13:42.669 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-26 23:13:42.669 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-26 23:13:42.687 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 23:13:42.703 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-26 23:13:42.704 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-26 23:13:43.162 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-26 23:13:43.163 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-26 23:13:43.542 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] Connected,notify listen context...
+2023-10-26 23:13:43.577 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-26 23:13:43.678 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-26 23:13:43.751 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-26 23:13:43.751 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-26 23:13:43.758 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-26 23:13:43.758 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-26 23:13:43.783 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-26 23:13:43.783 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-26 23:13:44.017 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-26 23:13:44.018 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-26 23:13:46.188 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-26 23:13:46.188 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-26 23:13:46.190 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-26 23:13:46.190 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-26 23:13:46.246 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-26 23:13:46.248 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-26 23:13:46.277 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-26 23:13:46.277 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-26 23:13:46.493 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-26 23:13:46.493 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-26 23:13:46.580 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-26 23:13:46.582 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-26 23:22:04.793 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] DisConnected,clear listen context...
+2023-10-26 23:22:04.793 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] Connected,notify listen context...
+2023-10-26 23:22:05.591 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] DisConnected,clear listen context...
+2023-10-26 23:22:05.591 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] Connected,notify listen context...
+2023-10-26 23:22:18.935 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] DisConnected,clear listen context...
+2023-10-26 23:22:18.936 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] Connected,notify listen context...
+2023-10-26 23:22:19.717 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] DisConnected,clear listen context...
+2023-10-26 23:22:19.717 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] Connected,notify listen context...
+2023-10-27 00:10:11.285 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_301]
+2023-10-27 00:10:12.019 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_301]
+2023-10-27 00:10:15.159 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] DisConnected,clear listen context...
+2023-10-27 00:10:15.159 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [a8d94399-ff52-4e5c-8880-7ff4da687dcf_config-0] Connected,notify listen context...
+2023-10-27 00:10:15.734 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] DisConnected,clear listen context...
+2023-10-27 00:10:15.735 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [f963b241-b04c-4c50-92eb-6ac8b5bbbc9e_config-0] Connected,notify listen context...
+2023-10-27 00:28:48.388 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-27 00:28:48.388 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-27 01:06:30.528 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-27 01:06:30.530 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-27 01:06:30.532 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-27 01:06:30.575 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-27 01:06:30.585 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-27 01:06:32.544 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [307f633d-b799-40d7-a3af-49b9e1d713a1_config-0] Connected,notify listen context...
+2023-10-27 01:06:32.622 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-27 01:06:39.999 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-27 01:06:40.000 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-27 01:06:40.018 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-27 01:06:40.028 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-27 01:06:40.028 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-27 01:06:40.503 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-27 01:06:40.503 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-27 01:06:40.809 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [42d26605-c4a1-4e0c-99b8-8414e58a7054_config-0] Connected,notify listen context...
+2023-10-27 01:06:40.816 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-27 01:06:40.860 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-27 01:06:40.909 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-27 01:06:40.909 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-27 01:06:40.915 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-27 01:06:40.915 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-27 01:06:40.934 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-27 01:06:40.934 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-27 01:06:41.160 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-27 01:06:41.160 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-27 01:06:43.283 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-27 01:06:43.284 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-27 01:06:43.285 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-27 01:06:43.285 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-27 01:06:43.316 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-27 01:06:43.317 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-27 01:06:43.333 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-27 01:06:43.334 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-27 01:06:43.545 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-27 01:06:43.545 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-27 01:06:43.597 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-27 01:06:43.597 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-27 01:55:03.739 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-27 01:55:03.740 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-27 01:55:03.766 INFO [com.alibaba.nacos.client.Worker:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-27 01:55:04.257 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-27 01:55:04.257 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-27 21:37:37.967 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-27 21:37:37.971 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-27 21:37:37.971 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-27 21:37:38.026 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-27 21:37:38.037 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-27 21:37:40.377 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8b818c1b-ee68-4851-8245-e1e21c7efe77_config-0] Connected,notify listen context...
+2023-10-27 21:37:40.468 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-27 21:37:51.176 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-27 21:37:51.176 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-27 21:37:51.192 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-27 21:37:51.208 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-27 21:37:51.208 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-27 21:37:51.584 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-27 21:37:51.584 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-27 21:37:51.925 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [62a5d88c-9dd9-482d-ae38-ada96499138a_config-0] Connected,notify listen context...
+2023-10-27 21:37:51.951 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-27 21:37:52.081 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-27 21:37:52.107 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-27 21:37:52.110 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-27 21:37:52.120 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-27 21:37:52.121 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-27 21:37:52.149 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-27 21:37:52.149 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-27 21:37:52.368 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-27 21:37:52.368 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-27 21:37:54.490 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-27 21:37:54.490 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-27 21:37:54.491 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-27 21:37:54.491 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-27 21:37:54.544 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-27 21:37:54.545 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-27 21:37:54.574 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-27 21:37:54.574 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-27 21:37:54.784 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-27 21:37:54.785 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-27 21:37:54.843 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-27 21:37:54.843 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-27 22:49:37.142 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [62a5d88c-9dd9-482d-ae38-ada96499138a_config-0] DisConnected,clear listen context...
+2023-10-27 22:49:37.142 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [62a5d88c-9dd9-482d-ae38-ada96499138a_config-0] Connected,notify listen context...
+2023-10-27 22:49:37.154 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8b818c1b-ee68-4851-8245-e1e21c7efe77_config-0] DisConnected,clear listen context...
+2023-10-27 22:49:37.154 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8b818c1b-ee68-4851-8245-e1e21c7efe77_config-0] Connected,notify listen context...
+2023-10-27 23:11:52.327 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_301]
+2023-10-27 23:11:52.351 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:651) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_301]
+2023-10-27 23:12:19.776 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8b818c1b-ee68-4851-8245-e1e21c7efe77_config-0] DisConnected,clear listen context...
+2023-10-27 23:12:19.776 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [8b818c1b-ee68-4851-8245-e1e21c7efe77_config-0] Connected,notify listen context...
+2023-10-27 23:12:20.169 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [62a5d88c-9dd9-482d-ae38-ada96499138a_config-0] DisConnected,clear listen context...
+2023-10-27 23:12:20.169 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [62a5d88c-9dd9-482d-ae38-ada96499138a_config-0] Connected,notify listen context...
+2023-10-27 23:12:23.174 ERROR [com.alibaba.nacos.client.Worker:c.a.n.c.c.i.ClientWorker] Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 2 milliseconds, 687000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@6e423273[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@4dd60d29, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@2349e6ab, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@47c49ad3}}}}}]]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:78) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:653) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1005) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:986) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:777) [nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:695) [nacos-client-2.1.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[na:1.8.0_301]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_301]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_301]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_301]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_301]
+Caused by: java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 2 milliseconds, 687000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@6e423273[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@4dd60d29, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@2349e6ab, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@47c49ad3}}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508) ~[nacos-client-2.1.0.jar:na]
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcConnection.request(GrpcConnection.java:76) ~[nacos-client-2.1.0.jar:na]
+	... 13 common frames omitted
+2023-10-27 23:21:23.673 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-27 23:21:23.673 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-30 22:57:49.470 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-30 22:57:49.471 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-30 22:57:49.473 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-30 22:57:49.508 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-30 22:57:49.515 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-30 22:57:51.478 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [79dc7b90-1ade-43c3-85f9-f126cdddef3d_config-0] Connected,notify listen context...
+2023-10-30 22:57:51.537 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-30 22:58:04.115 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-30 22:58:04.115 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-30 22:58:04.132 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 22:58:04.143 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-30 22:58:04.143 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-30 22:58:04.488 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-30 22:58:04.488 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-30 22:58:04.821 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [d1107d34-4327-4840-aaaa-13ec06d7219d_config-0] Connected,notify listen context...
+2023-10-30 22:58:04.830 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-30 22:58:04.854 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-30 22:58:04.954 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-30 22:58:04.955 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-30 22:58:04.965 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-30 22:58:04.965 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-30 22:58:04.986 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-30 22:58:04.987 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-30 22:58:05.208 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-30 22:58:05.208 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-30 22:58:07.312 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-30 22:58:07.312 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-30 22:58:07.313 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-30 22:58:07.314 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-30 22:58:07.351 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-30 22:58:07.352 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-30 22:58:07.380 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-30 22:58:07.380 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-30 22:58:07.591 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-30 22:58:07.591 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-30 22:58:07.650 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-30 22:58:07.650 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 22:59:28.943 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-30 22:59:28.944 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-30 23:00:58.473 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-30 23:00:58.476 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-30 23:00:58.478 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-30 23:00:58.560 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-30 23:00:58.573 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-30 23:01:01.370 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [e51ebbc2-1757-4ce4-91c8-634baad5ef4f_config-0] Connected,notify listen context...
+2023-10-30 23:01:01.499 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-30 23:01:13.086 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-30 23:01:13.086 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-30 23:01:13.097 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 23:01:13.105 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-30 23:01:13.105 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:01:13.483 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-30 23:01:13.483 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-30 23:01:13.808 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [11698b60-6f21-455e-b6fa-711a18d297ff_config-0] Connected,notify listen context...
+2023-10-30 23:01:13.819 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-30 23:01:13.848 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-30 23:01:13.940 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-30 23:01:13.940 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-30 23:01:13.950 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-30 23:01:13.950 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-30 23:01:13.978 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-30 23:01:13.978 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:01:14.195 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-30 23:01:14.195 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-30 23:01:21.001 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-30 23:01:21.001 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-30 23:01:21.003 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-30 23:01:21.003 INFO [Dubbo-framework-registry-notification-2-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-30 23:01:21.649 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-30 23:01:21.649 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-30 23:01:21.673 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-30 23:01:21.673 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:01:21.881 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-30 23:01:21.881 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-30 23:01:21.938 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-30 23:01:21.938 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 23:01:29.723 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-30 23:01:29.723 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-30 23:03:01.034 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [req-serv] nacos-server port:8848
+2023-10-30 23:03:01.037 INFO [restartedMain:c.a.n.c.u.ParamUtil] [settings] [http-client] connect timeout:1000
+2023-10-30 23:03:01.039 INFO [restartedMain:c.a.n.c.u.ParamUtil] PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-30 23:03:01.098 INFO [restartedMain:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-30 23:03:01.109 INFO [restartedMain:c.a.n.c.c.i.LocalConfigInfoProcessor] LOCAL_SNAPSHOT_PATH:D:\lyycode02\Lian-API-backend/apiOrderDubboCache\nacos\config
+2023-10-30 23:03:03.247 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [2fc8d9b7-f47e-4529-81bb-d2eace696e47_config-0] Connected,notify listen context...
+2023-10-30 23:03:03.318 INFO [restartedMain:c.a.n.c.c.i.Limiter] limitTime:5.0
+2023-10-30 23:03:14.726 INFO [restartedMain:c.a.n.c.c.i.CacheData] nacos.cache.data.init.snapshot = true 
+2023-10-30 23:03:14.727 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.configurators+dubbo
+2023-10-30 23:03:14.747 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 23:03:14.757 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerOrderService::.configurators+dubbo
+2023-10-30 23:03:14.757 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerOrderService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:03:15.102 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.migration+DUBBO_SERVICEDISCOVERY_MIGRATION
+2023-10-30 23:03:15.102 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.migration, group=DUBBO_SERVICEDISCOVERY_MIGRATION, cnt=1
+2023-10-30 23:03:15.469 INFO [com.alibaba.nacos.client.remote.worker:c.a.n.c.c.i.ClientWorker] [df52ac8c-1194-42f1-930c-56f2021ddc72_config-0] Connected,notify listen context...
+2023-10-30 23:03:15.485 INFO [restartedMain:c.a.n.c.c.u.JvmUtil] isMultiInstance:false
+2023-10-30 23:03:15.497 INFO [DubboSaveMetadataReport-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [publish-single] ok, dataId=com.lyy.apicommon.service.InnerOrderService:::provider:dubbo, group=dubbo, tenant=, config={"annotations":[],"canonicalName":"com.lyy.apicommon.service.InnerOrderService","codeSource":"file:/...
+2023-10-30 23:03:15.631 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.condition-router+dubbo
+2023-10-30 23:03:15.631 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.condition-router, group=dubbo, cnt=1
+2023-10-30 23:03:15.640 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.condition-router+dubbo
+2023-10-30 23:03:15.640 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.condition-router, group=dubbo, cnt=1
+2023-10-30 23:03:15.662 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService::.configurators+dubbo
+2023-10-30 23:03:15.662 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:03:15.887 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.InnerUserService+mapping
+2023-10-30 23:03:15.888 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-1:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.InnerUserService, group=mapping, cnt=1
+2023-10-30 23:03:15.993 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.MESHAPPRULE+dubbo
+2023-10-30 23:03:15.993 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.MESHAPPRULE, group=dubbo, cnt=1
+2023-10-30 23:03:15.995 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] dubbo.tag-router+dubbo
+2023-10-30 23:03:15.995 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=dubbo.tag-router, group=dubbo, cnt=1
+2023-10-30 23:03:16.025 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.condition-router+dubbo
+2023-10-30 23:03:16.025 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.condition-router, group=dubbo, cnt=1
+2023-10-30 23:03:16.040 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService::.configurators+dubbo
+2023-10-30 23:03:16.040 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService::.configurators, group=dubbo, cnt=1
+2023-10-30 23:03:16.246 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] com.lyy.apicommon.service.ApiBackendService+mapping
+2023-10-30 23:03:16.246 INFO [Dubbo-framework-mapping-refreshing-scheduler-thread-2:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=com.lyy.apicommon.service.ApiBackendService, group=mapping, cnt=1
+2023-10-30 23:03:16.326 INFO [restartedMain:c.a.n.c.c.i.ClientWorker] [fixed-192.168.65.130_8848] [subscribe] org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators+dubbo
+2023-10-30 23:03:16.326 INFO [restartedMain:c.a.n.c.c.i.CacheData] [fixed-192.168.65.130_8848] [add-listener] ok, tenant=, dataId=org.apache.dubbo.metadata.MetadataService:1.0.0:dubbo.configurators, group=dubbo, cnt=1
+2023-10-30 23:06:20.059 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-30 23:06:20.060 INFO [DubboShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed
+2023-10-30 23:06:20.167 INFO [com.alibaba.nacos.client.naming.security:c.a.n.c.a.r.i.CredentialWatcher] null No credential found
+2023-10-30 23:06:20.591 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialWatcher] [null] CredentialWatcher is stopped
+2023-10-30 23:06:20.591 INFO [SpringApplicationShutdownHook:c.a.n.c.a.r.i.CredentialService] [null] CredentialService is freed

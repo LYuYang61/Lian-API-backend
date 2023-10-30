@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: api-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.65.130:8848
+      config:
+        server-addr: 192.168.65.130:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/api_order
+    username: root
+    password: 123456
+  # 默认 dev 环境
+  profiles:
+    active: dev
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  redis:
+    database: 1
+    host: 192.168.65.130
+    port: 6379
+    timeout: 5000
+    password: 123456
+  rabbitmq:
+    host: 192.168.65.130
+    port: 5672
+    username: lyy
+    password: 123456
+    virtualHost: /
+
+server:
+  port: 9001
+  servlet:
+    context-path: /api/order
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
+      logic-delete-value: 0 # 逻辑已删除值（默认为 1）
+      logic-not-delete-value: 1 # 逻辑未删除值（默认为 0）
+
+dubbo:
+  application:
+    name: dubbo
+    qosEnableL: true
+    qosPort: 33334
+    qosAcceptForeignIp: false
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://192.168.65.130:8848
+  consumer:
+    check: false
