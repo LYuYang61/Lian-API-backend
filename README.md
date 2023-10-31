@@ -12,43 +12,49 @@
 
 - 首页
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/bec96a4f-eaa3-4bde-ae12-bf61e421f3ea)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/0945bf27-3ede-498d-b81c-6fa12d999ea1)
 
 
 - 接口详情
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/10cec271-a7d3-4516-8b15-c81586de54c2)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/008249ef-3ec7-4e5d-8228-4e67f7a8995a)
 
 
 - 接口购买
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/ca181456-7a84-4581-b0dc-d70939dbfac1)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/bca3d833-8ce4-4390-b910-6a766cc6d146)
+
 
 - 接口支付
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/bb499daf-a551-43b4-bbc0-1f1cb66d1a5a)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/fd269245-0abc-443d-96f2-e0cdbb9b8e87)
+
 
 - 接口管理
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/931db033-05ae-4866-8435-b884194c3447)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/5fa10e27-4c96-49fe-9c8c-818944409058)
+
 
 - 接口分析
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/3d13aec3-0f5d-44c5-9723-a75eff5f7c2e)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/71af2746-dd8f-4b7a-8fa9-4d63b36ab518)
+
 
 - 用户管理
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/a9461fd4-d4e7-4ef7-bf8b-d541df6703bd)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/0c4f5e7a-b97e-4a40-aef6-73b4689de41a)
+
 
 - 个人中心
 
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/a03137fa-ee03-4f11-87f7-32686625ceee)
+![image](https://github.com/LYuYang61/Lian-API-backend/assets/131588563/46184fea-8b8f-4f9d-9b73-9c5e7639acac)
+
 
 
 
 
 ## 系统架构
-![image](https://github.com/LYuYang61/Lian-Api/assets/131588563/be2a9a65-f7f5-473f-b1de-28e364328368)
+
 
 
 
